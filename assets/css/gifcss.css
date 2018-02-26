@@ -1,0 +1,21 @@
+.gifZone {
+    /* background-color: aqua; */
+    /* width: 85%; */
+    background-image: url("../images/dark_embroidery.png");
+    height: 100%;
+}
+
+
+.buttonZone {
+    /* background-color: green; */
+    height: 100%;
+    background-image: url("../images/binding_dark.png");
+}
+
+/* h2 {
+    text-align: center;
+} */
+
+.alpha {
+    color: whitesmoke;
+}

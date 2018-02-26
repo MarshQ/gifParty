@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Gif Party</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./assets/css/gifcss.css">
+    </head>
+
+    <body>
+        <!-- <div class="container"> -->
+            <div class="row">
+                <div class="col-md-10 gifZone">
+                    <div id="gifs">
+
+                    </div>
+                </div>
+                <div class="col-md-2 buttonZone">
+                    <br>
+                    <br>
+                    <br>
+                    <form id="artist-form">
+                        <!-- <label for="buttonTopic">Add a button</label>   -->
+                        <label for="buttonTopic" class="alpha">Button Topic: </label><br>
+                        <input label= "Button Topic: " type="text" id="buttonTopic"><br>
+                        <input id="buttonAdd" type="submit" value="Add a Button">
+                    </form>    
+                    <br>
+                    <br>
+                    <label for="limit" class="alpha">How Many Gifs: </label><br>
+                    <input id="limit" type="number" value="10">
+                    <br>
+                    <br>
+                    <select id="rating" class="" name="rating-level">
+                        <option value="Y">Y</option>
+                        <option value="G">G</option>
+                        <option value="PG">PG</option>
+                        <option selected value="PG-13">PG-13</option>
+                        <option value="R">R</option>
+                    </select>
+
+                    <br>
+                    <br>
+                    <br>
+                        
+                        
+                    <h2 class="alpha"> Button Pool </h2>
+                    <br>
+                    <div id="buttons">
+                        <button class="tastes btn-success" pickles="corgi">Corgi</button>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/gifjs.js"></script>
+</html>
